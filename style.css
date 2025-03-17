@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #f5e1c5;
+    background-color: #1e3d1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background: #b88a4f;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2, label {
+    color: #fff6e0;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #8d6b3b;
+    background: #f5e1c5;
+    color: #5a3e1b;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    max-width: 350px;
+    padding: 12px;
+    background: #6e8efb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.error {
+    color: rgb(207, 14, 14);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#foto-preview, #cv-foto {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 2px solid #8d6b3b;
+}
+
+.cv-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}

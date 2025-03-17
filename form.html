@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Form Data</h2>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" required>
+
+        <label for="ttl">Tempat, Tanggal Lahir:</label>
+        <input type="text" id="ttl" required>
+
+        <label for="pendidikan">Riwayat Pendidikan:</label>
+        <textarea id="pendidikan" required></textarea>
+
+        <label for="foto">Foto Profil:</label>
+        <input type="file" id="foto" accept="image/*" onchange="previewFoto(event)">
+        <img id="foto-preview" src="" alt="Preview Foto" style="display:none;">
+
+        <button onclick="simpanData()">Simpan</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
